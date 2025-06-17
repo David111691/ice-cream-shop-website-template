@@ -1,28 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Название сайта</title>
-    <link rel="stylesheet" href="style.css" />
 
-    <!-- hind font import -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="banner">
-      <p class="banner__label">Already got a trade account?</p>
-      <a class="banner__link">Order online</a>
-    </div>
-    <header class="header"></header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ice cream store</title>
+  <link rel="stylesheet" href="style.css" />
 
-    <main class="main"></main>
 
-    <footer class="footer"></footer>
-  </body>
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> -->
+
+  <link rel="stylesheet" href="https://use.typekit.net/wun4yxp.css">
+</head>
+
+<body>
+  <div class="banner">
+    <p class="banner__label">Already got a trade account?</p>
+    <a class="banner__link" href="#">Order online</a>
+  </div>
+  <header class="header">
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Projects</a>
+        </li>
+      </ul>
+      <a href="#" class="logo-link">
+        <img class="logo-img" src="/images/logo.svg" />
+      </a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Projects</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-text__pre-title">Scoop up happiness with</p>
+        <h1 class="hero-text__title">New Forest Ice Cream</h1>
+        <p class="hero-text__desc">We’ve been whipping up smiles since 1983 with our award-winning, nut-free ice cream,
+          sorbets and desserts. Both real dairy ice cream and plant-based treats, and everything in between. Because
+          we’re making the world a cooler place.</p>
+        <div class="hero-links">
+          <a class="hero-link btn btn--primary" href="#">Our products</a>
+          <a class="hero-link btn btn--primary" href="#">Become a customer</a>
+        </div>
+      </div>
+      <picture>
+        <source media="(max-width:374px)"
+          srcset="https://www.newforesticecream.com/app/uploads/bis-images/3026/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE-373x248.png 1x, https://www.newforesticecream.com/app/uploads/bis-images/3026/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE-746x496.png 2x">
+        <source media="(max-width:576px)"
+          srcset="https://www.newforesticecream.com/app/uploads/bis-images/3026/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE-575x383.png 1x, https://www.newforesticecream.com/app/uploads/bis-images/3026/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE-1150x766.png 2x">
+        <source media="(max-width:768px)"
+          srcset="https://www.newforesticecream.com/app/uploads/bis-images/3026/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE-767x511.png 1x, https://www.newforesticecream.com/app/uploads/bis-images/3026/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE-1534x1022.png 2x">
+        <source media="(min-width:769px)"
+          srcset="https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE.png">
+        <img class="hero-img-mobile" fetchpriority="high" decoding="async" width="1200" height="800"
+          src="https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE.png"
+          class="block-hero-content__mobile-image lozad"
+          alt="New Forest Ice Cream 120ml tubs, an ice cream scoop and sprinkles and a pink mug filled with cones topped with Ice Cream and sorbet"
+          retina="1"
+          srcset="https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE.png 1200w, https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE-300x200.png 300w, https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE-1024x683.png 1024w, https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Award-winning-ice-cream-retail-tubs-V2-MOBILE-768x512.png 768w"
+          sizes="(max-width: 1200px) 100vw, 1200px" data-loaded="true">
+      </picture>
+      <picture>
+        <source media="(max-width:1024px)"
+          srcset="https://www.newforesticecream.com/app/uploads/bis-images/1487/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-1024x368.jpg 1x, https://www.newforesticecream.com/app/uploads/bis-images/1487/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-2048x736.jpg 2x">
+        <source media="(max-width:1200px)"
+          srcset="https://www.newforesticecream.com/app/uploads/bis-images/1487/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-1200x432.jpg 1x, https://www.newforesticecream.com/app/uploads/bis-images/1487/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-2400x864.jpg 2x">
+        <source media="(max-width:1440px)"
+          srcset="https://www.newforesticecream.com/app/uploads/bis-images/1487/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-1440x518.jpg 1x, https://www.newforesticecream.com/app/uploads/bis-images/1487/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-2880x1036.jpg 2x">
+        <source media="(max-width:1680px)"
+          srcset="https://www.newforesticecream.com/app/uploads/bis-images/1487/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-1680x604.jpg 1x, https://www.newforesticecream.com/app/uploads/bis-images/1487/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-3360x1208.jpg 2x">
+        <source media="(min-width:1681px)"
+          srcset="https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream.jpg">
+        <img class="hero-img" decoding="async" width="2400" height="863"
+          src="https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream.jpg"
+          alt="manufacturer and wholesale ice cream award winning New Forest Ice Cream" retina="1"
+          srcset="https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream.jpg 2400w, https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-300x108.jpg 300w, https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-1024x368.jpg 1024w, https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-768x276.jpg 768w, https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-1536x552.jpg 1536w, https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-Tubs-and-scoop-Award-winning-ice-cream-dairy-ice-cream-2048x736.jpg 2048w"
+          sizes="(max-width: 2400px) 100vw, 2400px" data-loaded="true"></picture>
+    </section>
+    <section class="hero">
+      <div class="hero-text hero-text--pos-left hero-text--text-left">
+        <p class="hero-text__pre-title">Scoop up happiness with</p>
+        <h1 class="hero-text__title">Dive into our family’s story</h1>
+        <p class="hero-text__desc">Curious about our New Forest roots?</p>
+        <div class="hero-links">
+          <a class="hero-link btn btn--primary" href="#">Our history</a>
+        </div>
+      </div>
+      <picture>
+        <source media="(max-width:374px)"
+          srcset="https://www.newforesticecream.com/app/uploads/bis-images/3028/New-Forest-Ice-Cream-founders-wholesale-mobile-373x248.png 1x, https://www.newforesticecream.com/app/uploads/bis-images/3028/New-Forest-Ice-Cream-founders-wholesale-mobile-746x496.png 2x">
+        <source media="(max-width:576px)"
+          srcset="https://www.newforesticecream.com/app/uploads/bis-images/3028/New-Forest-Ice-Cream-founders-wholesale-mobile-575x383.png 1x, https://www.newforesticecream.com/app/uploads/bis-images/3028/New-Forest-Ice-Cream-founders-wholesale-mobile-1150x766.png 2x">
+        <source media="(max-width:768px)"
+          srcset="https://www.newforesticecream.com/app/uploads/bis-images/3028/New-Forest-Ice-Cream-founders-wholesale-mobile-767x511.png 1x, https://www.newforesticecream.com/app/uploads/bis-images/3028/New-Forest-Ice-Cream-founders-wholesale-mobile-1534x1022.png 2x">
+        <source media="(min-width:769px)"
+          srcset="https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-founders-wholesale-mobile.png">
+        <img class="hero-img" decoding="async" width="1200" height="800" class="block-hero-content__mobile-image lozad"
+          alt="Sue and Lawrie Jenman the founders of New Forest Ice Cream with first signage" retina="1"
+          srcset="https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-founders-wholesale-mobile.png 1200w, https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-founders-wholesale-mobile-300x200.png 300w, https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-founders-wholesale-mobile-1024x683.png 1024w, https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-founders-wholesale-mobile-768x512.png 768w"
+          sizes="(max-width: 1200px) 100vw, 1200px"
+          data-cfsrc="https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-founders-wholesale-mobile.png"
+          src="https://www.newforesticecream.com/app/uploads/2024/10/New-Forest-Ice-Cream-founders-wholesale-mobile.png"
+          data-loaded="true">
+      </picture>
+    </section>
+  </main>
+</body>
+
 </html>
