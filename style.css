@@ -400,7 +400,7 @@ a:link {
   height: 10rem;
   width: 100%;
   transform: translateY(92%);
-  /* display: block; */
+  z-index: 5;
 }
 
 .section-collaborators__logos ul {
@@ -427,4 +427,41 @@ a:link {
 /***************************/
 .feature-section--allergy {
   background-color: #cef;
+  position: relative;
+}
+
+.feature-section--allergy::after {
+  content: "";
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjAxIDE1IiBmaWxsPSJub25lIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPHBhdGggZD0iTTU1LjgyNzggNC40MjkxTDExLjY1NTMgMTQuNDg4M0M1Ljc4ODUzIDE1LjgyNDMgMC4yMDAxOTUgMTEuMzY1NSAwLjIwMDE5NSA1LjM0ODUxQzAuMjAwMTk1IDIuNzYwMDEgMi4yOTg1OSAwLjY2MTYyMSA0Ljg4NzA4IDAuNjYxNjIxSDU5NS40ODNDNTk4LjA4OCAwLjY2MTYyMSA2MDAuMiAyLjc3MzU3IDYwMC4yIDUuMzc4NzlDNjAwLjIgMTEuNDAwNiA1OTQuNjM1IDE1Ljg4MSA1ODguNzUyIDE0LjU5NTdMNTQyLjEyMyA0LjQwODAxQzUzNC43NiAyLjc5OTI3IDUyNy4xMjEgMi45NTIyMiA1MTkuODI4IDQuODU0NEw1MDEuOTA2IDkuNTI4ODNDNDgyLjg4IDE0LjQ5MTIgNDYyLjkgMTQuNDkxMiA0NDMuODc0IDkuNTI4ODRDNDI0Ljg0OCA0LjU2NjQ3IDQwNC44NjggNC41NjY0NyAzODUuODQyIDkuNTI4ODRDMzY2LjgxNiAxNC40OTEyIDM0Ni44MzYgMTQuNDkxMiAzMjcuODEgOS41Mjg4NEMzMDguNzg1IDQuNTY2NDYgMjg4LjgwNCA0LjU2NjQ2IDI2OS43NzggOS41Mjg4NEMyNTAuNzUzIDE0LjQ5MTIgMjMwLjc3MiAxNC40OTEyIDIxMS43NDcgOS41Mjg4NEMxOTIuNzIxIDQuNTY2NDcgMTcyLjc0IDQuNTY2NDcgMTUzLjcxNSA5LjUyODg0QzEzNC42ODkgMTQuNDkxMiAxMTQuNzA5IDE0LjQ5MTIgOTUuNjgyOCA5LjUyODg1TDc3LjQyMzYgNC43NjYzOUM3MC4zNTYzIDIuOTIzMDYgNjIuOTQ5MiAyLjgwNzM3IDU1LjgyNzggNC40MjkxWiIgZmlsbD0iI0ZDRjhFMSIvPgo8L3N2Zz4K);
+  background-repeat: no-repeat;
+  background-size: 120% 4.4rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 10rem;
+  width: 100%;
+  transform: translateY(10%) rotate(180deg);
+  z-index: 5;
+}
+
+/***************************/
+/*block-cta--sustainability*/
+/***************************/
+.block-cta--sustainability {
+  padding: 8rem 0;
+}
+
+.block-cta__container--sustainability {
+  background-color: #bfeeaa;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.block-cta--sustainability-pretitle {
+  font-family: "permanent-marker-pro", serif;
+  font-size: 2rem;
+}
+
+.block-cta__title--md {
+  font-size: 3.6rem;
 }
