@@ -207,7 +207,7 @@ a:link {
 .feature-section__container {
   margin: 0 auto;
   display: flex;
-  width: 100rem;
+  /* width: 100rem; */
   justify-content: center;
   align-items: center;
   gap: 14rem;
@@ -275,11 +275,16 @@ a:link {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  position: relative;
+
   width: 90rem;
   margin: 0 auto;
-  padding: 4rem 10rem;
+  padding: 4rem 8rem;
   box-sizing: border-box;
+
   text-align: center;
+
   background-color: #cceeff;
   border-radius: 3.2rem;
 }
@@ -297,4 +302,50 @@ a:link {
   margin-bottom: 1.6rem;
   font-weight: 500;
   line-height: 145%;
+}
+
+.block-cta__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-40%, -40%);
+}
+
+/*********************/
+/* testimonial       */
+/*********************/
+.block-testimonial {
+  background-color: #ffe99c;
+}
+
+.block-testimonial__container {
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+  /* justify-content: center; */
+
+  margin: 0 auto;
+  width: 90rem;
+}
+
+.block-testimonial__img {
+}
+
+.block-testimonial__image {
+  width: 42rem;
+  height: auto;
+  border-radius: 3.2rem;
+  display: block;
+}
+
+.block-testimonial__content {
+}
+
+.block-testimonial__title {
+}
+
+.block-testimonial__text {
+}
+
+.block-testimonial__author {
 }
