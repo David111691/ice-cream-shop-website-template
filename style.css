@@ -156,7 +156,7 @@ a:link {
 .hero-img {
   display: block;
   width: 100%;
-  height: 52rem;
+  height: 60rem;
   object-fit: cover;
   object-position: center;
 }
@@ -350,7 +350,7 @@ a:link {
 .block-testimonial__container {
   display: flex;
   align-items: center;
-  gap: 15rem;
+  gap: 11rem;
   /* justify-content: center; */
 
   margin: 0 auto;
@@ -369,6 +369,8 @@ a:link {
 }
 
 .block-testimonial__content {
+  color: #048;
+  flex: 0 1 auto;
 }
 
 .block-testimonial__title {
@@ -378,6 +380,8 @@ a:link {
 }
 
 .block-testimonial__author {
+  font-weight: 600;
+  font-size: 1.4rem;
 }
 
 /*********************/
@@ -387,6 +391,12 @@ a:link {
   background-color: #fcf8e1;
   padding: 8.8rem 0 4.4rem 0;
   position: relative;
+}
+
+.section-collaborators__title {
+  font-size: 3.6rem;
+  color: #048;
+  margin-bottom: 2rem;
 }
 
 .section-collaborators::after {
@@ -449,6 +459,7 @@ a:link {
 /***************************/
 .block-cta--sustainability {
   padding: 8rem 0;
+  padding-bottom: 4rem;
 }
 
 .block-cta__container--sustainability {
@@ -464,4 +475,370 @@ a:link {
 
 .block-cta__title--md {
   font-size: 3.6rem;
+}
+
+/***************************/
+/*block-featured-posts     */
+/***************************/
+.block-featured-posts {
+  padding: 8rem 0;
+  background-color: #fcf8e1;
+  position: relative;
+}
+
+.block-featured-posts::after {
+  content: "";
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjAxIDE1IiBmaWxsPSJub25lIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPHBhdGggZD0iTTU1LjgyNzggNC40MjkxTDExLjY1NTMgMTQuNDg4M0M1Ljc4ODUzIDE1LjgyNDMgMC4yMDAxOTUgMTEuMzY1NSAwLjIwMDE5NSA1LjM0ODUxQzAuMjAwMTk1IDIuNzYwMDEgMi4yOTg1OSAwLjY2MTYyMSA0Ljg4NzA4IDAuNjYxNjIxSDU5NS40ODNDNTk4LjA4OCAwLjY2MTYyMSA2MDAuMiAyLjc3MzU3IDYwMC4yIDUuMzc4NzlDNjAwLjIgMTEuNDAwNiA1OTQuNjM1IDE1Ljg4MSA1ODguNzUyIDE0LjU5NTdMNTQyLjEyMyA0LjQwODAxQzUzNC43NiAyLjc5OTI3IDUyNy4xMjEgMi45NTIyMiA1MTkuODI4IDQuODU0NEw1MDEuOTA2IDkuNTI4ODNDNDgyLjg4IDE0LjQ5MTIgNDYyLjkgMTQuNDkxMiA0NDMuODc0IDkuNTI4ODRDNDI0Ljg0OCA0LjU2NjQ3IDQwNC44NjggNC41NjY0NyAzODUuODQyIDkuNTI4ODRDMzY2LjgxNiAxNC40OTEyIDM0Ni44MzYgMTQuNDkxMiAzMjcuODEgOS41Mjg4NEMzMDguNzg1IDQuNTY2NDYgMjg4LjgwNCA0LjU2NjQ2IDI2OS43NzggOS41Mjg4NEMyNTAuNzUzIDE0LjQ5MTIgMjMwLjc3MiAxNC40OTEyIDIxMS43NDcgOS41Mjg4NEMxOTIuNzIxIDQuNTY2NDcgMTcyLjc0IDQuNTY2NDcgMTUzLjcxNSA5LjUyODg0QzEzNC42ODkgMTQuNDkxMiAxMTQuNzA5IDE0LjQ5MTIgOTUuNjgyOCA5LjUyODg1TDc3LjQyMzYgNC43NjYzOUM3MC4zNTYzIDIuOTIzMDYgNjIuOTQ5MiAyLjgwNzM3IDU1LjgyNzggNC40MjkxWiIgZmlsbD0iI0ZDRjhFMSIvPgo8L3N2Zz4K);
+  background-repeat: no-repeat;
+  background-size: 120% 4.4rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 10rem;
+  width: 100%;
+  transform: translateY(92%);
+  z-index: 5;
+}
+
+.block-featured-posts h2 {
+  margin: 0;
+}
+
+.block-featured-posts__grid-container {
+  margin: 0 auto;
+  width: 120rem;
+  height: 60rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+}
+
+.block-featured-posts__item {
+}
+
+.block-featured-posts__item--1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+.block-featured-posts__item-link--1 {
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 25%,
+      rgba(0, 0, 0, 0.2) 75%
+    ),
+    url(https://www.newforesticecream.com/app/uploads/2024/10/Vegan-plant-based-ice-cream-free-from-new-forest-ice-cream.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-items: flex-end;
+
+  box-sizing: border-box;
+  padding: 0.8rem 2.4rem;
+
+  border-radius: 3.2rem;
+}
+
+.block-featured-posts__item-link--1 h2 {
+  font-size: 5.5rem;
+  line-height: 105%;
+  text-align: left;
+  letter-spacing: -0.02rem;
+  color: #fff;
+}
+
+.block-featured-posts__item--2 {
+  grid-column: 3 / 5;
+}
+
+.block-featured-posts__item-link--2 {
+  display: flex;
+  align-items: flex-end;
+
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 25%,
+      rgba(0, 0, 0, 0.2) 75%
+    ),
+    url(https://www.newforesticecream.com/app/uploads/2024/12/Insta-turkish-delight-1224-V1-scaled.jpg);
+
+  background-position: center;
+  background-size: cover;
+
+  box-sizing: border-box;
+  padding: 0.8rem 2.4rem;
+
+  border-radius: 3.2rem;
+}
+
+.block-featured-posts__item-link--2 h2 {
+  font-size: 3rem;
+  line-height: 105%;
+  text-align: left;
+  letter-spacing: -0.02rem;
+  color: #fff;
+}
+
+.block-featured-posts__item--3 {
+  grid-column: 3 / 4;
+}
+
+.block-featured-posts__item-link--3 {
+  display: flex;
+  align-items: flex-end;
+
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 25%,
+      rgba(0, 0, 0, 0.2) 75%
+    ),
+    url(https://www.newforesticecream.com/app/uploads/2025/01/New-forest-ice-cream-valentines-ice-cream-scaled.jpg);
+
+  background-position: center;
+  background-size: cover;
+
+  box-sizing: border-box;
+  padding: 0.8rem 2.4rem;
+  padding-bottom: 1.6rem;
+
+  border-radius: 3.2rem;
+}
+
+.block-featured-posts__item-link--3 h2 {
+  font-size: 3rem;
+  line-height: 105%;
+  text-align: left;
+  letter-spacing: -0.02rem;
+  color: #fff;
+}
+
+.block-featured-posts__item--4 {
+  grid-column: 4 / 5;
+}
+
+.block-featured-posts__item-link--4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(255, 192, 204);
+
+  background-position: center;
+  background-size: cover;
+
+  box-sizing: border-box;
+  padding: 0.8rem 2.4rem;
+  padding-bottom: 3rem;
+
+  border-radius: 3.2rem;
+}
+
+.block-featured-posts__item-link--4 span {
+  font-size: 2rem;
+  font-family: "permanent-marker-pro", serif;
+  text-align: center;
+  align-self: center;
+  color: rgb(238, 102, 136);
+}
+
+.block-featured-posts__item-link--4 h2 {
+  font-size: 3rem;
+  line-height: 105%;
+  letter-spacing: -0.02rem;
+  color: #fff;
+  text-align: center;
+  color: rgb(238, 102, 136);
+}
+
+/******************/
+/*block newsletter*/
+/******************/
+.block-newsletter {
+  background-color: #cef;
+  display: flex;
+  justify-content: center;
+  padding: 12rem 0;
+  padding-top: 10rem;
+
+  color: #048;
+}
+
+.block-newsletter__container {
+  width: 90rem;
+  padding: 8rem 4rem;
+  display: flex;
+  gap: 6.4rem;
+  background-color: #fcf8e1;
+  border-radius: 3.2rem;
+}
+
+.block-newsletter__text-block {
+  flex: 1.4;
+}
+
+.block-newsletter__pretitle {
+  font-size: 2rem;
+  font-family: "permanent-marker-pro", serif;
+  margin-bottom: 1.2rem;
+  margin-left: 0.4rem;
+}
+
+.block-newsletter__title {
+  font-size: 4rem;
+  font-family: "hind", sans-serif;
+  line-height: 105%;
+  margin: 0;
+  margin-bottom: 3.2rem;
+}
+
+.block-newsletter__social-links {
+}
+
+.social-profiles {
+  display: flex;
+  gap: 1rem;
+}
+
+.block-newsletter__email-block {
+  flex: 1;
+}
+
+.block-newsletter__email-text {
+  font-size: 2rem;
+  font-weight: 500;
+
+  margin-bottom: 2rem;
+}
+
+.block-newsletter__email-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.block-newsletter__email-label {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.block-newsletter__email-input {
+  font-size: 1.6rem;
+  font-family: "hind", sans-serif;
+  line-height: 115%;
+  border-radius: 0.6rem;
+  align-self: stretch;
+  border: 1px solid #cdddf0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  color: #048;
+  margin-bottom: 0.8rem;
+}
+
+.block-newsletter__email-input::placeholder {
+  color: #bbbbbb;
+}
+
+.block-newsletter__email-input:focus,
+.block-newsletter__email-input:active {
+  border-color: #048;
+}
+
+.block-newsletter__email-button {
+  border: none;
+  cursor: pointer;
+}
+
+/*          */
+/*  footer  */
+/*          */
+.site-footer {
+  background-color: #aaddf7;
+  color: #048;
+  padding: 8rem 0 4rem 0;
+  position: relative;
+}
+
+.site-footer::before {
+  content: "";
+  background-image: url(https://www.newforesticecream.com/app/themes/new-forest-ice-cream/dist/images/footer-landscape_bb5149bec0ace8f88ddaeca5a3820f1f.svg);
+  background-repeat: repeat-x;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 15rem;
+  width: 100%;
+  transform: translateY(-85%);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.footer-lists {
+  display: flex;
+  gap: 12.8rem;
+}
+
+.footer-lists li:first-child {
+  margin-bottom: 0.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.footer-lists h2 {
+  margin: 0;
+  margin-bottom: 0.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #048;
+}
+
+.footer-lists li {
+  margin-bottom: 0.4rem;
+  font-size: 1.6rem;
+  color: #048;
+}
+
+.footer-lists a:link {
+  font-weight: 500;
+  color: #048;
+}
+
+.footer-lists a:visited {
+  color: #048;
+}
+
+.footer-lists--first {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container__socials {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 14rem;
+}
+
+.footer-container__socials-links {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: space-between;
 }
